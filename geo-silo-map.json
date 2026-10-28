@@ -1,0 +1,112 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Place",
+  "@id": "https://postcleaners.com/#geo-silo",
+  "name": "Post Construction Cleaners — Los Angeles Service Area",
+  "url": "https://postcleaners.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "postalCode": "90012",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  },
+  "hasMap": "https://www.google.com/maps?cid=9563480696371577019",
+  "potentialAction": [
+    {
+      "@type": "TravelAction",
+      "name": "Dispatch Route from Los Angeles City Hall, Los Angeles, CA to Post Construction Cleaners Service Hub",
+      "fromLocation": {
+        "@type": "Place",
+        "name": "Los Angeles City Hall, Los Angeles, CA"
+      },
+      "toLocation": {
+        "@type": "Place",
+        "name": "Los Angeles, CA 90012",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 34.0522,
+          "longitude": -118.2437
+        }
+      },
+      "target": "https://www.google.com/maps/dir/?api=1&origin=Los%20Angeles%20City%20Hall%2C%20Los%20Angeles%2C%20CA&destination=Los%20Angeles%2C%20CA%2090012&travelmode=driving"
+    },
+    {
+      "@type": "TravelAction",
+      "name": "Dispatch Route from Santa Monica Pier, Santa Monica, CA to Post Construction Cleaners Service Hub",
+      "fromLocation": {
+        "@type": "Place",
+        "name": "Santa Monica Pier, Santa Monica, CA"
+      },
+      "toLocation": {
+        "@type": "Place",
+        "name": "Los Angeles, CA 90012",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 34.0522,
+          "longitude": -118.2437
+        }
+      },
+      "target": "https://www.google.com/maps/dir/?api=1&origin=Santa%20Monica%20Pier%2C%20Santa%20Monica%2C%20CA&destination=Los%20Angeles%2C%20CA%2090012&travelmode=driving"
+    },
+    {
+      "@type": "TravelAction",
+      "name": "Dispatch Route from Rodeo Drive, Beverly Hills, CA to Post Construction Cleaners Service Hub",
+      "fromLocation": {
+        "@type": "Place",
+        "name": "Rodeo Drive, Beverly Hills, CA"
+      },
+      "toLocation": {
+        "@type": "Place",
+        "name": "Los Angeles, CA 90012",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 34.0522,
+          "longitude": -118.2437
+        }
+      },
+      "target": "https://www.google.com/maps/dir/?api=1&origin=Rodeo%20Drive%2C%20Beverly%20Hills%2C%20CA&destination=Los%20Angeles%2C%20CA%2090012&travelmode=driving"
+    },
+    {
+      "@type": "TravelAction",
+      "name": "Dispatch Route from Hollywood & Highland, Hollywood, CA to Post Construction Cleaners Service Hub",
+      "fromLocation": {
+        "@type": "Place",
+        "name": "Hollywood & Highland, Hollywood, CA"
+      },
+      "toLocation": {
+        "@type": "Place",
+        "name": "Los Angeles, CA 90012",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 34.0522,
+          "longitude": -118.2437
+        }
+      },
+      "target": "https://www.google.com/maps/dir/?api=1&origin=Hollywood%20%26%20Highland%2C%20Hollywood%2C%20CA&destination=Los%20Angeles%2C%20CA%2090012&travelmode=driving"
+    },
+    {
+      "@type": "TravelAction",
+      "name": "Dispatch Route from The Commons at Calabasas, Calabasas, CA to Post Construction Cleaners Service Hub",
+      "fromLocation": {
+        "@type": "Place",
+        "name": "The Commons at Calabasas, Calabasas, CA"
+      },
+      "toLocation": {
+        "@type": "Place",
+        "name": "Los Angeles, CA 90012",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 34.0522,
+          "longitude": -118.2437
+        }
+      },
+      "target": "https://www.google.com/maps/dir/?api=1&origin=The%20Commons%20at%20Calabasas%2C%20Calabasas%2C%20CA&destination=Los%20Angeles%2C%20CA%2090012&travelmode=driving"
+    }
+  ]
+}
