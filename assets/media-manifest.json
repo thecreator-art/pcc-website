@@ -1,0 +1,32 @@
+{
+  "source": "Shared PCC media provided by the client",
+  "photos": [
+    "DSC03867.jpg",
+    "DSC03933.jpg",
+    "DSC03989.jpg",
+    "DSC03915.jpg",
+    "DSC03893.jpg",
+    "DSC04002.jpg",
+    "DSC03876.jpg",
+    "DSC03889.jpg",
+    "DSC03947.jpg",
+    "DSC03996.jpg",
+    "DSC04056.jpg",
+    "DSC04058.jpg",
+    "DSC04060.jpg",
+    "DSC03861.jpg",
+    "DSC04094.jpg",
+    "DSC04098.jpg",
+    "DSC04100.jpg"
+  ],
+  "excluded": {
+    "DSC03864.jpg": "Gorilla van visible",
+    "DSC03961.jpg": "Gorilla uniform visible",
+    "DSC04005.jpg": "Gorilla vehicle visible in background"
+  },
+  "videos": {
+    "5": "Full video, web compressed",
+    "6": "Full video, web compressed",
+    "7": "Interior-only excerpt 15.2s\u201330.7s; exterior Gorilla segment excluded"
+  }
+}
