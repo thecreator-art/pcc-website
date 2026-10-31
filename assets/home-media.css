@@ -6,3 +6,4 @@
 @media(prefers-reduced-motion:reduce){.service-art,.work-photo img{transition:none}}
 .trust-team img{aspect-ratio:auto;height:auto}.trust-photos{padding-bottom:230px}.trust-detail{width:50%}.trust-detail img{aspect-ratio:1/1;object-position:center 35%}@media(max-width:640px){.trust-photos{padding-bottom:140px;padding-right:35px}}
 @media(max-width:640px){.media-services .svc-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.service-art{max-width:100%}}
+.trust-team figcaption{padding-right:46%}
