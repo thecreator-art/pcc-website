@@ -12,8 +12,7 @@
   const close = document.createElement('button');
   close.textContent = 'Close photo ×';
   const image = document.createElement('img');
-  const caption = document.createElement('p');
-  dialog.append(close, image, caption);
+  dialog.append(close, image);
   document.body.append(dialog);
   let opener;
   links.forEach(link => link.addEventListener('click', event => {
@@ -22,7 +21,6 @@
     opener = link;
     image.src = link.href;
     image.alt = link.querySelector('img').alt;
-    caption.textContent = image.alt;
     dialog.showModal();
   }));
   close.addEventListener('click', () => dialog.close());
