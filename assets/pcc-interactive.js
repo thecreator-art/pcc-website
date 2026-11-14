@@ -1,5 +1,29 @@
 (function(){
+  function ensurePricingLinks(){
+    var nav = document.querySelector(".nav-links");
+    if (nav && !nav.querySelector('a[href="/pricing"]')) {
+      var item = document.createElement("div");
+      item.className = "nav-item";
+      item.innerHTML = '<a href="/pricing">Pricing</a>';
+      var faq = nav.querySelector(':scope > .nav-item > a[href="/faq"]');
+      var anchor = faq ? faq.parentElement.nextSibling : nav.querySelector(".nav-phone");
+      if (anchor) nav.insertBefore(item, anchor);
+      else nav.appendChild(item);
+    }
+    document.querySelectorAll("footer h4").forEach(function(heading){
+      if (heading.textContent.trim() !== "Quick Links") return;
+      var list = heading.nextElementSibling;
+      if (!list || list.querySelector('a[href="/pricing"]')) return;
+      var li = document.createElement("li");
+      li.innerHTML = '<a href="/pricing">Pricing</a>';
+      var faq = list.querySelector('a[href="/faq"]');
+      if (faq && faq.parentElement.nextSibling) list.insertBefore(li, faq.parentElement.nextSibling);
+      else if (faq) faq.parentElement.after(li);
+      else list.appendChild(li);
+    });
+  }
   function initPCC(){
+    ensurePricingLinks();
     // 1. Mobile drawer. A modal keeps focus and touch input inside the menu.
     var ham = document.querySelector(".hamburger-mob");
     var navLinks = document.querySelector(".nav-links");

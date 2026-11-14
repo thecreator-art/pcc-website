@@ -589,6 +589,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://postcleaners.com/pricing</loc>
+    <lastmod>2026-11-14T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://postcleaners.com/privacy-policy</loc>
     <lastmod>2026-10-28T15:34:44.799Z</lastmod>
     <changefreq>weekly</changefreq>
